@@ -19,7 +19,7 @@ Velum Secure ist eine professionelle Python-Bibliothek für präzise TLS-Fingerp
 ### Installation
 
 ```bash
-pip install vsec-tls
+pip install vsec_tls
 ```
 
 ### Lizenzierung
@@ -224,7 +224,7 @@ Velum Secure is a professional Python library for precise TLS fingerprinting and
 ### Installation
 
 ```bash
-pip install vsec-tls
+pip install vsec_tls
 ```
 
 ### Licensing
