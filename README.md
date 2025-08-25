@@ -108,7 +108,7 @@ session = TlsSession(
 
 ### Schnellstart
 
-**Wichtiger Hinweis**: Ersetzen Sie `YOUR_LICENSE_KEY` durch Ihren eigenen Lizenzschlüssel von [velum-secure.com](https://velum-secure.com).
+**Wichtiger Hinweis**: Ersetzen Sie `YOUR_LICENSE_KEY` durch Ihren eigenen Lizenzschlüssel von [https://velum-secure.com](https://velum-secure.com).
 
 #### Synchrone Requests
 
@@ -313,7 +313,7 @@ session = TlsSession(
 
 ### Quick Start
 
-**Important Note**: Replace `YOUR_LICENSE_KEY` with your own license key from [velum-secure.com](https://velum-secure.com).
+**Important Note**: Replace `YOUR_LICENSE_KEY` with your own license key from [https://velum-secure.com](https://velum-secure.com).
 
 #### Synchronous Requests
 
