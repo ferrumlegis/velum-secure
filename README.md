@@ -28,7 +28,7 @@ Diese Software ist proprietär und erfordert eine gültige Lizenz. Sie können e
 
 **[https://velum-secure.com](https://velum-secure.com)**
 
-Nach dem Kauf erhalten Sie Ihren persönlichen `license_key`, welcher für die Nutzung der Bibliothek erforderlich sind.
+Nach dem Kauf erhalten Sie Ihren persönlichen `license_key`, welcher für die Nutzung der Bibliothek erforderlich ist.
 
 ### Profile-Struktur
 
