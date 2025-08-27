@@ -14,7 +14,6 @@ Velum Secure ist eine professionelle Python-Bibliothek für präzise TLS-Fingerp
 - **Proxy-Unterstützung**: HTTP- und SOCKS5-Proxy-Integration
 - **Cookie-Management**: Automatische Session-Verwaltung
 - **Platform-spezifische Header**: Authentische Browser-Header-Simulation
-- **BoringSSL Integration**: Hochpräzise TLS-Konfiguration
 
 ### Installation
 
@@ -168,8 +167,11 @@ session = TlsSession(
     license_key="YOUR_LICENSE_KEY",
     api_key="vsk_live_4zFJH1rM@8kq7XyPbUvdM9LrNcVtE#QeRWtZpBGY6La*JUfh2vSx",
     proxy={
-        "http": "http://username:password@proxy.example.com:8080",
-        "https": "http://username:password@proxy.example.com:8080"
+        "type": "http",
+        "host": "",
+        "port": 8000,
+        "username": "",
+        "password": ""
     }
 )
 
@@ -178,8 +180,11 @@ session = TlsSession(
     license_key="YOUR_LICENSE_KEY",
     api_key="vsk_live_4zFJH1rM@8kq7XyPbUvdM9LrNcVtE#QeRWtZpBGY6La*JUfh2vSx",
     proxy={
-        "http": "socks5://username:password@proxy.example.com:1080",
-        "https": "socks5://username:password@proxy.example.com:1080"
+        "type": "socks5",
+        "host": "",
+        "port": 8000,
+        "username": "",
+        "password": ""
     }
 )
 ```
@@ -219,7 +224,6 @@ Velum Secure is a professional Python library for precise TLS fingerprinting and
 - **Proxy Support**: HTTP and SOCKS5 proxy integration
 - **Cookie Management**: Automatic session management
 - **Platform-specific Headers**: Authentic browser header simulation
-- **BoringSSL Integration**: High-precision TLS configuration
 
 ### Installation
 
@@ -373,8 +377,11 @@ session = TlsSession(
     license_key="YOUR_LICENSE_KEY",
     api_key="YOUR_API_KEY",
     proxy={
-        "http": "http://username:password@proxy.example.com:8080",
-        "https": "http://username:password@proxy.example.com:8080"
+        "type": "http",
+        "host": "",
+        "port": 8000,
+        "username": "",
+        "password": ""
     }
 )
 
@@ -383,8 +390,11 @@ session = TlsSession(
     license_key="YOUR_LICENSE_KEY",
     api_key="YOUR_API_KEY",
     proxy={
-        "http": "socks5://username:password@proxy.example.com:1080",
-        "https": "socks5://username:password@proxy.example.com:1080"
+        "type": "socks5",
+        "host": "",
+        "port": 8000,
+        "username": "",
+        "password": ""
     }
 )
 ```
